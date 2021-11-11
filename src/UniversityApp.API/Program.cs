@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using UniversityApp.DLL;
 using UniversityApp.DLL.Context;
 
 
@@ -16,6 +17,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDllDependency();
 
 var app = builder.Build();
 
