@@ -11,6 +11,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityApp.API", "src\UniversityApp.API\UniversityApp.API.csproj", "{12BFBEF4-F58D-45E9-9B54-BD5FE6AA8819}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItem", "SolutionItem", "{89743EB7-7AD1-4981-8C81-52B13A6FEDA4}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	Readme.md = Readme.md
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
