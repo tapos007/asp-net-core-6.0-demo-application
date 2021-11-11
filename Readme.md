@@ -25,3 +25,21 @@ docker run --name my-postgres-admin \
 -e 'PGADMIN_DEFAULT_PASSWORD=tapos007' \
 -d dpage/pgadmin4
 ```
+
+### add new migration command
+
+```
+dotnet ef migrations add InitialMigration --project "src/UniversityApp.DLL" --startup-project "src/UniversityApp.API"
+```
+
+### migration update database command
+
+```
+dotnet ef database update --project "src/UniversityApp.DLL" --startup-project "src/UniversityApp.API"
+```
+
+### migration script generate command
+
+```
+dotnet ef migrations script --project "src/UniversityApp.DLL" --startup-project "src/UniversityApp.API" -o ./script.sql
+```
