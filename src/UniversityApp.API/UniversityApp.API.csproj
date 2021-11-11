@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\UniversityApp.BLL\UniversityApp.BLL.csproj" />
       <ProjectReference Include="..\UniversityApp.DLL\UniversityApp.DLL.csproj" />
     </ItemGroup>
 
