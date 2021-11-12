@@ -16,6 +16,8 @@ ProjectSection(SolutionItems) = preProject
 	Readme.md = Readme.md
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityApp.BLL.Testing", "test\UniversityApp.BLL.Testing\UniversityApp.BLL.Testing.csproj", "{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 		{3A577211-1DE8-4F54-98F5-C5AC789008A5} = {B9208973-066A-4B95-9373-0DCD76E5BBB0}
 		{7B2E71FF-C051-4931-B00E-A44B7944996D} = {B9208973-066A-4B95-9373-0DCD76E5BBB0}
 		{12BFBEF4-F58D-45E9-9B54-BD5FE6AA8819} = {B9208973-066A-4B95-9373-0DCD76E5BBB0}
+		{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6} = {453AB871-A193-45FA-9929-1AFB0730C158}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3A577211-1DE8-4F54-98F5-C5AC789008A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -39,5 +42,9 @@ Global
 		{12BFBEF4-F58D-45E9-9B54-BD5FE6AA8819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12BFBEF4-F58D-45E9-9B54-BD5FE6AA8819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12BFBEF4-F58D-45E9-9B54-BD5FE6AA8819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A7C861-6DBF-4FD2-8AE3-2378651CE0C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
