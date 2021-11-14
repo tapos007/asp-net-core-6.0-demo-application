@@ -16,4 +16,8 @@
       <ProjectReference Include="..\UniversityApp.DLL\UniversityApp.DLL.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.4" />
+    </ItemGroup>
+
 </Project>
